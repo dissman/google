@@ -222,3 +222,20 @@ ul.header-wrap {
     border: rgb(179, 179, 179) 1px solid;
     box-shadow: 0 5px 8px -8px gray;
 }
+
+
+/* under search */
+
+.ext-info {
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.ext-info a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.ext-info a:hover {
+    text-decoration: underline;
+}
