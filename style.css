@@ -1,0 +1,45 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* images header */
+
+.img-links {
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+.links {
+    vertical-align: middle;
+}
+
+img.apps-icon {
+    width: 25px;
+    filter: invert(0.4); 
+    vertical-align: middle;
+}
+
+img.profile-icon {
+    width: 33px;
+    border-radius: 50%; 
+    vertical-align: middle;
+}
+
+
+/* common header content */
+
+ul.header-wrap {
+    float: right;
+    margin: 8px;
+}
+
+.header-content li {
+    display: inline;
+    padding: 7px;
+    font-size: 13px;
+}
+
+.header-content div {
+    display: inline-block;
+}
