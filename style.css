@@ -283,6 +283,11 @@ ul.header-wrap {
     padding-right: 20px;
 }
 
+.footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 /* upper footer */
 
@@ -312,4 +317,9 @@ ul.header-wrap {
 .upper-footer-left {
     float: left;
     padding-left: 20px;
+}
+
+.upper-footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
