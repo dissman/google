@@ -1,5 +1,5 @@
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: arial, sans-serif;
 }
 
 
@@ -170,4 +170,55 @@ ul.header-wrap {
 
 .mic-icon>img {
     width: 14px;
+}
+
+
+/* search buttons */
+
+.control-panel {
+    margin-top: 30px;
+}
+
+
+/* main search button */
+
+.main-search-button {
+    display: inline;
+}
+
+.main-search-button>button {
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    color: #696969;
+}
+
+.main-search-button>button:hover {
+    color: black;
+    border: rgb(179, 179, 179) 1px solid;
+    box-shadow: 0 5px 8px -8px gray;
+}
+
+
+/* auto search button */
+
+.auto-search-button {
+    display: inline;
+}
+
+.auto-search-button>button {
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    color: #696969;
+}
+
+.auto-search-button>button:hover {
+    color: black;
+    border: rgb(179, 179, 179) 1px solid;
+    box-shadow: 0 5px 8px -8px gray;
 }
