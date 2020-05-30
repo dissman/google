@@ -15,16 +15,30 @@
     vertical-align: middle;
 }
 
+.links li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 img.apps-icon {
     width: 25px;
     filter: invert(0.4);
     vertical-align: middle;
 }
 
+img.apps-icon:hover {
+    filter: none;
+    cursor: pointer;
+}
+
 img.profile-icon {
     width: 33px;
     border-radius: 50%;
     vertical-align: middle;
+}
+
+img.profile-icon:hover {
+    cursor: pointer;
 }
 
 
@@ -74,7 +88,7 @@ ul.header-wrap {
 
 .main-search-border {
     border: black 0.5px solid;
-    width: 480px;
+    width: 450px;
     border-radius: 40px;
     height: 40px;
     border-color: gainsboro;
@@ -119,4 +133,5 @@ ul.header-wrap {
 
 #main-input {
     border: none;
+    font-size: 15px;
 }
